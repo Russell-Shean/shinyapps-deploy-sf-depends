@@ -24,7 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: deploy
-        uses: BDSI-Utwente/shinyapps-deploy-github-action@v1
+        uses: Russell-Shean/shinyapps-deploy-sf-depends@v1
         with:
           # account and application name (https://<accountName>.shinyapps.io/<appName>)
           appName: your-application-name
