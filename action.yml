@@ -1,5 +1,5 @@
-name: "Deploy to shinyapps.io with updates"
-description: "Deploy R shiny apps to shinyapps.io."
+name: "Deploy to shinyapps.io with sf dependencies"
+description: "Deploy R shiny apps to shinyapps.io. with sf dependences"
 branding:
   icon: cast
   color: blue
