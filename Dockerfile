@@ -6,7 +6,10 @@ FROM rocker/shiny-verse:4.3.2
 # install rsconnect and renv packages, as well as prerequisite libraries
 RUN apt-get update && apt-get install -y \
     libssl-dev \
-    libcurl4-openssl-dev
+    libcurl4-openssl-dev \
+    libharfbuzz-dev \
+    libfribidi-dev
+    
 RUN install2.r rsconnect renv DT RecordLinkage plotly shinydashboard shinyjs 
 
 # copy deploy script to root of the workspace
