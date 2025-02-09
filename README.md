@@ -1,4 +1,4 @@
-# shinyapps-deploy-github-action
+# shinyapps-deploy-sf-depends
 
 GitHub action to automate deployment of shiny applications on <https://shinyapps.io>.
 
@@ -24,7 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: deploy
-        uses: Russell-Shean/shinyapps-deploy-sf-depends@v1
+        uses: Russell-Shean/shinyapps-deploy-sf-depends@v3
         with:
           # account and application name (https://<accountName>.shinyapps.io/<appName>)
           appName: your-application-name
@@ -104,4 +104,7 @@ Any contributions are appreciated. In particular, we would appreciate help imple
 
 ## References
 
+This action was forked from: DeeNA95/shinyapps-deploy-github-action
+
 This action was inspired by <https://blog.rmhogervorst.nl/blog/2021/02/27/deploy-to-shinyapps-io-from-github-actions/>.
+
